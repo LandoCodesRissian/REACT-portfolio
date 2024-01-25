@@ -24,18 +24,22 @@ function Header() {
         }
     ]
   return (
-    <div>
+    <div className='flex items- justify-between'>
     <div>
         <h2 className='text-[25px] font-bold text-white'>Landon
-            <span className='text-red-500'> Peterson</span>
-        </h2>
+            <span className='text-purple-500'> Peterson</span></h2>
     </div>
-    <div>
+    <div className='flex gap-4'>
         {menuList.map((item) => (
             <div>
-                <h2 className='text-white'>{item.title}</h2>
+                <h2 className='text-white 
+                hover:border-[1px] border-purple-500 rounded-full
+                text-[20px] px-3 py-1 cursor-pointer'>{item.title}</h2>
             </div>
         ))}
+        <h2 className='text-white 
+                hover:border-[1px] border-purple-500 rounded-full
+                text-[20px] px-3 py-1 cursor-pointer hover:bg-gradient-to-r from-purple-500 to-purple-800'>Give me a job!</h2>
     </div>
 </div>
 );
