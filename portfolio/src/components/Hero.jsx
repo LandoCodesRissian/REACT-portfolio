@@ -1,5 +1,5 @@
 import React from 'react'
-
+import profilePic from '../assets/meInDen.jpg'
 function Hero() {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 pt-10 items-center'>
@@ -15,7 +15,7 @@ function Hero() {
       </div>
       <div className='flex justify-center '>
       <div className='h-[320px] w-[250px] p-2 rounded-[20px] bg-gradient-to-b from-purple-500 to-black'>
-        <img src="https://thecareerist.typepad.com/.a/6a0120a9220c59970b01b7c9362605970b-pi"
+        <img src={profilePic}
         className='h-full w-[250px] obj-cover rounded-[20px]'></img>
       </div>
       </div>
