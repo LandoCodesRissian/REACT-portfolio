@@ -17,7 +17,7 @@ function Header() {
         },
         {
             id:3,
-            title:'Service'
+            title:'Fun Facts'
         },
         {
             id:4,
