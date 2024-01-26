@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-
+import MenuOverlay  from './MenuOverlay'
 import { HiMenuAlt4 } from "react-icons/hi";
 import { HiXMark } from "react-icons/hi2";
 function Header() {
@@ -12,19 +12,19 @@ function Header() {
             title:'Home'
         },
         {
-            id:1,
+            id:2,
             title:'About'
         },
         {
-            id:1,
+            id:3,
             title:'Service'
         },
         {
-            id:1,
+            id:4,
             title:'Portfolio'
         },
         {
-            id:1,
+            id:5,
             title:'Contact'
         }
     ]
@@ -35,8 +35,8 @@ function Header() {
             <span className='text-purple-500'> Peterson</span></h2>
     </div>
     <div className='hidden md:flex gap-4'>
-        {menuList.map((item) => (
-            <div>
+        {menuList.map((item, index) => (
+            <div key={index}>
                 <h2 className='text-white 
                 hover:border-[1px] border-purple-500 rounded-full
                 text-[20px] px-3 py-1 cursor-pointer'>{item.title}</h2>
