@@ -42,7 +42,7 @@ You can find the live site deployed on netlify right [here!](https://65b72338f4e
 
 
 ## References
-Used a video from [TubeGuruji](https://www.youtube.com/@tubeguruji) to get a decent start on the layout, I wanted to use tailwind and was still a bit confused on some aspects of REACT.  [This]([https://www.youtube.com/@tubeguruji](https://www.youtube.com/watch?v=KETD93OnAVs)https://www.youtube.com/watch?v=KETD93OnAVs) is the link to that video.
+Used a video from [TubeGuruji](https://www.youtube.com/@tubeguruji) to get a decent start on the layout, I wanted to use tailwind and was still a bit confused on some aspects of REACT.  [This](https://www.youtube.com/watch?v=KETD93OnAVs) is the link to that video.
 
 ## Contributers
 [Me!](https://github.com/LandonP172)
