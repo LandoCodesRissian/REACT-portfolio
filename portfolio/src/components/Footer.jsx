@@ -34,22 +34,22 @@ const Footer = () => {
         </div>
         <div className="skills-icons" style={{ display: 'flex', gap: '10px' }}>
           <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
-            <FaReact style={{ ...skillIconStyle, color: skillColors.React }} />
+            <FaReact style={{ ...skillIconStyle, color: skillColors.React}} />
           </a>
           <a href="https://www.mysql.com" target="_blank" rel="noopener noreferrer">
-            <FaDatabase style={{ ...skillIconStyle, color: skillColors.MySQL }} />
+            <FaDatabase style={{ ...skillIconStyle, color: skillColors.MySQL}} />
           </a>
           <a href="https://www.mongodb.com" target="_blank" rel="noopener noreferrer">
-            <FaLeaf style={{ ...skillIconStyle, color: skillColors.MongoDB }} />
+            <FaLeaf style={{ ...skillIconStyle, color: skillColors.MongoDB}} />
           </a>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
             <FaJsSquare style={{ ...skillIconStyle, color: skillColors.JavaScript }} />
           </a>
           <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
-            <FaCss3 style={{ ...skillIconStyle, color: skillColors.CSS }} />
+            <FaCss3 style={{ ...skillIconStyle, color: skillColors.CSS   }} />
           </a>
           <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
-            <FaHtml5 style={{ ...skillIconStyle, color: skillColors.HTML }} />
+            <FaHtml5 style={{ ...skillIconStyle, color: skillColors.HTML}} />
           </a>
         </div>
       </div>
