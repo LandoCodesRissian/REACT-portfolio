@@ -18,7 +18,6 @@ function App() {
 
   switch (currentView) {
     case 'AboutMe':
-      console.log(currentView)
       ComponentToRender = AboutMe;
       break;
     case 'Contact':
@@ -34,8 +33,8 @@ function App() {
   return (
     <div className='min-h-screen bg-gradient-to-tr from-[#301934] via-[#120B2E] to-[black] px-8 md:px-14 lg:px-36 pb-10 pt-7'>
       <Header navigateTo={navigateTo} />
-      <ComponentToRender /> {/* This will change based on currentView */}
-      <Footer/>
+      <ComponentToRender currentView={currentView} navigateTo={navigateTo} />
+      <Footer />
     </div>
   );
 }
