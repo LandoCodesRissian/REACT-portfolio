@@ -5,7 +5,7 @@ const Portfolio = () => {
   
   useEffect(() => {
     // getting my github repositories
-    fetch('https://api.github.com/users/LandonP172/repos')
+    fetch('https://api.github.com/users/LandoCodesRissian/repos')
       .then((response) => response.json())
       .then((data) => setRepos(data))
       .catch((error) => console.error(error));
