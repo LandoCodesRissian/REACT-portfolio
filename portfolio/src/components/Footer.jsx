@@ -25,7 +25,7 @@ const Footer = () => {
     <footer>
       <div className="icons-container" style={{ display: 'flex', justifyContent: 'space-between' }}>
         <div className="social-icons" style={{ display: 'flex', gap: '10px' }}>
-          <a href="https://github.com/LandonP172" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/LandonCodesRissian" target="_blank" rel="noopener noreferrer">
             <FaGithub style={iconStyle} />
           </a>
           <a href="https://www.linkedin.com/in/landon-peterson-351b39288/" target="_blank" rel="noopener noreferrer">
